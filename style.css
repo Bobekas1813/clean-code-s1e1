@@ -3,7 +3,7 @@
   li, h3 {
     list-style:none;
   }
-  input,button{
+  input,button {
     outline:none;
   }
  
@@ -63,6 +63,7 @@
 .edit:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .heading,
 .new-task {
@@ -75,7 +76,7 @@
   text-transform: uppercase;
 }
 .input-task {
-    width: 56%;
+  width: 56%;
   display: inline-block;
   flex-grow: 1;
   margin: 0;
@@ -104,8 +105,8 @@
 
 /* Task list */
 .list {
-    margin:0;
-    padding: 0px;
+  margin:0;
+  padding: 0px;
 }
 .list > * {
   overflow: hidden;
@@ -117,7 +118,7 @@
   align-items: center;
 }
 .list > * > * {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 .checkbox {
   margin: 0 10px;
@@ -148,7 +149,7 @@
 
 /* Edit Task */
 ul li input[type=text] {
-    display:none
+  display:none
 }
 
 ul li.edit-mode input[type=text] {
